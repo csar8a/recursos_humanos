@@ -1,0 +1,10 @@
+.block_container
+{
+    text-align:center;
+}
+.block
+{
+    display:inline;
+    margin-left: 10px;
+    margin-right: 10px;
+}

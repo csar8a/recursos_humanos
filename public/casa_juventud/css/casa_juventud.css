@@ -1,0 +1,56 @@
+
+/*CSS PARA LA VISTA ACCESO INFORMACION*/
+
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fafafa;
+}
+
+.container {
+    padding: 20px;
+}
+
+.titleCrd {
+    margin-bottom: 14px;
+    color: #2598cd;
+}
+
+.card {
+    margin-top: 40px; 
+    background: #f1f1f1;
+}
+
+.center-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    /*width:300px;
+    height:90px;*/
+  }
+
+  .photo-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    /*width:300px;
+    height:90px;*/
+  }
+
+
+
+@media (max-width: 768px) 
+{ 
+    .busquedaLbl {
+        display: none;
+    }
+    .x { float: right;}
+}
+
+@media screen and (min-width: 319px) and (max-width: 320px){
+    .g-recaptcha {
+    transform:scale(0.79);-webkit-transform:scale(0.79);
+    transform-origin:0 0;-webkit-transform-origin:0 0;
+    }}
